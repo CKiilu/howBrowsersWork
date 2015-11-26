@@ -26,10 +26,15 @@ __7.Data storer__: A persistent layer which store data such as cache and cookies
 It displays requested content on the screen which can be in the form of HTML and XML documents.Oher documents such as PDF can be viewed using plug-ins and extensions.
 
 Different browsers use different redering engines:
+   
    1.Chrome and Opera(from version 15) use Blink.
+   
    2.Safari and Chrome(on iPhone) use Webkit.
+   
    3.Firefox uses Gecko.
+   
    4.Internet Explorer uses Trident.
+   
    5.Edge uses EdgeHTML.
    
 
