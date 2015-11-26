@@ -14,3 +14,8 @@ __5.UI backend__: Drawing basic widgets onthe browser such as combo boxes and wi
 __6.Javascript interpreter__: Parsing and executiong javascript code.
 
 __7.Data storer__: A persistent layer which store data such as cache and cookies locally.
+
+Sources: *[engineers' garage](http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working)
+         *[html5 rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+         *[dzone](https://dzone.com/articles/how-browsers-work-behind)
+         *[slideshare](http://www.slideshare.net/manishtrivedi/how-browser-work)
