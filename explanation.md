@@ -27,15 +27,15 @@ It displays requested content on the screen which can be in the form of HTML and
 
 Different browsers use different redering engines:
    
-   1.Chrome and Opera(from version 15) use Blink.
+    1.Chrome and Opera(from version 15) use Blink.
    
-   2.Safari and Chrome(on iPhone) use Webkit.
+    2.Safari and Chrome(on iPhone) use Webkit.
    
-   3.Firefox uses Gecko.
+    3.Firefox uses Gecko.
    
-   4.Internet Explorer uses Trident.
+    4.Internet Explorer uses Trident.
    
-   5.Edge uses EdgeHTML.
+    5.Edge uses EdgeHTML.
    
 
 _Sources_: *[engineers' garage](http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working)
