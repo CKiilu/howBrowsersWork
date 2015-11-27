@@ -45,9 +45,14 @@ __4.Painting the render tree__
 
 The render tree is traversed and each of its nodes is painted using the UI backend component.
 
-_Sources_: *[engineers' garage](http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working)
-         *[html5 rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
-         *[dzone](https://dzone.com/articles/how-browsers-work-behind)
-         *[slideshare](http://www.slideshare.net/manishtrivedi/how-browser-work)
+*__Sources__*:  
+
+Engineers Garage: http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working
+
+Tali Garsiel: http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+Spyros Doulgeridis:https://dzone.com/articles/how-browsers-work-behind
+
+Manish Trivedi: http://www.slideshare.net/manishtrivedi/how-browser-work
 
 
