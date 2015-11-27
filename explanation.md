@@ -4,8 +4,6 @@
 Web browsers are software applications designed to enable users to access information resourses available on the world wide web. Browsers present the resource the user chooses by requesting it from the server and displaying it in the browser window.
 ##Architecture of a Browser
 
-###![Structure of a Browser](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/28714/Architecture-of-Web-Browser.gif)
-
 The components comprising a browser are:
 
 __1.User interface(UI)__: This is comprised of everything in the browser excluding the window where the requested page is viewed. This includes: the next and back buttons,the home button,the refresh and stop button, the bookmarks bar and the address bar.
@@ -25,17 +23,18 @@ __7.Data storer__: A persistent layer which store data such as cache and cookies
 ##The Rendering Engine
 It displays requested content on the screen which can be in the form of HTML and XML documents.Oher documents such as PDF can be viewed using plug-ins and extensions.
 
-Different browsers use different redering engines:
-   
- 1.Chrome and Opera(from version 15) use Blink.
-   
- 2.Safari and Chrome(on iPhone) use Webkit.
-   
- 3.Firefox uses Gecko.
-   
- 4.Internet Explorer uses Trident.
-   
- 5.Edge uses EdgeHTML.
+Different browsers use different redering engines: Chrome and Opera(from version 15) use Blink, Safari and Chrome(on iPhone) use Webkit, Firefox uses Gecko, Internet Explorer uses Trident and Edge uses EdgeHTML.
+
+##The Main Flow
+
+The basic flow of the rendering engine occurs in four stages:
+
+1.Parsing HtML to construct the DOM tree.
+
+2.Rendering tree construction.
+
+3.Layout of the render tree
+
    
 
 _Sources_: *[engineers' garage](http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working)
