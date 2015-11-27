@@ -25,17 +25,25 @@ It displays requested content on the screen which can be in the form of HTML and
 
 Different browsers use different redering engines: Chrome and Opera(from version 15) use Blink, Safari and Chrome(on iPhone) use Webkit, Firefox uses Gecko, Internet Explorer uses Trident and Edge uses EdgeHTML.
 
-##The Main Flow
+###The Main Flow
 
 The basic flow of the rendering engine occurs in four stages:
 
-1.Parsing HtML to construct the DOM tree.
+__1.Parsing HTML to construct the DOM tree.__
 
-2.Rendering tree construction.
+The rendering engine gets data from the network layer usually in 8 kB chunks. It parses the HTML documents and converts them to DOM nodes to construct the content/DOM tree. 
 
-3.Layout of the render tree
+__2.Rendering tree construction.__
 
-   
+The engine parses style data both in external CSS files and in style elements. The render tree is created using DOM nodes and the parsed style data.
+
+__3.Layout of the render tree.__
+
+Each node of the render tree is given the exact coordinates where it should appear on the screen.
+
+__4.Painting the render tree__
+
+The render tree is traversed and each of its nodes is painted using the UI backend component.
 
 _Sources_: *[engineers' garage](http://www.engineersgarage.com/articles/web-browsers-what-is-web-browser-working)
          *[html5 rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
