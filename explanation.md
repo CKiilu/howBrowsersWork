@@ -16,7 +16,7 @@ __4.Networking__: A platform independent code which performs network calls such 
 
 __5.UI backend__: Drawing basic widgets onthe browser such as combo boxes and windows. It exposes a generic non platform specific interface underneath which it uses Operating System (OS) UI methods.
 
-__6.Javascript interpreter__: Parsing and executiong javascript code.
+__6.Javascript interpreter__: Parsing and executing javascript code.
 
 __7.Data storer__: A persistent layer which store data such as cache and cookies locally.
 
